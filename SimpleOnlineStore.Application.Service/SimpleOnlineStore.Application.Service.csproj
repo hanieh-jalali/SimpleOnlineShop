@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>SimpleOnlineStore.Application.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SimpleOnlineStore.Application\SimpleOnlineStore.Application.csproj" />
+      <ProjectReference Include="..\SimpleOnlineStore.Repository\SimpleOnlineStore.Repository.csproj" />
+    </ItemGroup>
+
+</Project>
